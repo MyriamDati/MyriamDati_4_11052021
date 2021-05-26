@@ -19,10 +19,6 @@ a:hover {
     cursor: pointer;
 }
 
-a:focus{
-    border: 2px solid rgb(172, 10, 10);
-}
-
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -331,8 +327,7 @@ a:focus{
     text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
+.nav > li a:hover{
     background: transparent;
 }
 
@@ -452,8 +447,7 @@ nav .caret {
 }
 
 .btn-d,
-.btn-d:hover,
-.btn-d:focus {
+.btn-d:hover{
     color: #FFF;
     background: rgba(0, 0, 0, .3);
 }
