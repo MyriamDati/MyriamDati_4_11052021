@@ -19,6 +19,10 @@ a:hover {
     cursor: pointer;
 }
 
+a:focus{
+    border: 2px solid rgb(172, 10, 10);
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
